@@ -1,0 +1,28 @@
+# data and competition files
+data/
+train/
+test/
+*.wav
+train.csv
+test.csv
+sample_submission.csv
+
+# caches and model artifacts produced by the notebook
+cache/
+outputs/
+*.npy
+*.npz
+*.pt
+*.bin
+*.safetensors
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# misc
+.DS_Store
+.env
