@@ -1,0 +1,16 @@
+# Kaggle images already ship most of these; the notebook itself runs:
+#   %pip install -q faster-whisper sentence-transformers sentencepiece soundfile
+# Versions are intentionally unpinned - pin them from a successful run (pip freeze) before publishing.
+faster-whisper
+sentence-transformers
+sentencepiece
+soundfile
+torch
+transformers
+scikit-learn
+scipy
+numpy
+pandas
+matplotlib
+tqdm
+spacy          # en_core_web_sm is downloaded automatically by the notebook
